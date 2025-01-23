@@ -1,7 +1,8 @@
 body {
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: aquamarine;
+    flex-direction: column;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: aliceblue;
     justify-content: center;
     align-items: center;
 }
@@ -11,14 +12,50 @@ th, td {
     vertical-align: top;
 }
 
-.search-bar {
-    height: 2em;
-}
-
 .header-text {
     font-weight: bold;
 }
 
+.search-bar {
+    height: 2em;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1em;
+}
+
+.search-bar input {
+    height: 1.25em;
+}
+
+.search-bar button {
+    height: 1.6em;
+}
+
 #ability-list, #stat-name-list, #stat-value-list {
     list-style-type: none;
+}
+
+#pokemon-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    min-width: 0.5em; 
+    background-color: gainsboro;
+}
+
+#pokemon-table thead tr {
+    background-color: cornflowerblue;
+}
+
+#pokemon-table th, 
+#pokemon-table td {
+    padding: 12px 15px;
+}
+
+#pokemon-table tbody tr {
+    border-bottom: 1px solid darkgrey;
+}
+
+#pokemon-table tbody tr:last-of-type {
+    border-bottom: 5px solid cornflowerblue;
 }

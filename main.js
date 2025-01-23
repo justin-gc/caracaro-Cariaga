@@ -1,12 +1,9 @@
-
-
 async function searchPokemon() {
     const pokemonName = document.getElementById("pokemon-name");
     const spriteFront = document.getElementById("sprite-front");
     const spriteBack = document.getElementById("sprite-back");
     const errorMessage = document.getElementById("error-message");
     const dataTable = document.getElementById("pokemon-data");
-    const dataValues = dataTable.querySelector("tbody");
 
     try {
         const pokemon = document.getElementById("search-text").value.toLowerCase();
