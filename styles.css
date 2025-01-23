@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+}
+
+th, td {
+    padding: 0.5em;
+    vertical-align: top;
+}
+
+.search-bar {
+    height: 2em;
+}
+
+.header-text {
+    font-weight: bold;
+}
+
+#ability-list, #stat-name-list, #stat-value-list {
+    list-style-type: none;
+}
